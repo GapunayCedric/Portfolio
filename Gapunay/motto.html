@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motto in Life</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #222;
+            color: white;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            text-align: center;
+        }
+        .back-button {
+            margin-top: 20px;
+            text-align: left;
+        }
+        .back-button button {
+            background-color: #555;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .back-button button:hover {
+            background-color: #777;
+        }
+        .image-grid {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .image-grid img {
+            width: 32%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .content {
+            background-color: #333;
+            padding: 50px 20px;
+            margin-top: 20px;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+        }
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            flex: 1;
+        }
+        .motto, .inspiration {
+            flex: 1;
+            padding: 0 20px;
+        }
+        .motto ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .motto li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="back-button">
+            <button onclick="history.back()">← Back</button>
+        </div>
+
+        <div class="image-grid">
+            <img src="c.jpg" alt="Architecture Image">
+            <img src="d.jpg" alt="Jumping Silhouette">
+            <img src="g.jpg" alt="Modern Building">
+        </div>
+
+        <div class="content">
+            <div class="title">Motto in Life</div>
+            <div class="motto">
+                <h3>Motto:</h3>
+                <ul>
+                    <li>1.) Don't Stop until you are Proud.</li>
+                    <li>2.) Time is Gold.</li>
+                    <li>3.) Everything happens for a Reason.</li>
+                    <li>4.) Sometimes you win, sometimes you learn.</li>
+                    <li>5.) Do unto others as you would have them do unto you.</li>
+                </ul>
+            </div>
+            <div class="inspiration">
+                <h3>My Inspiration:</h3>
+                <p>For me, my inspiration is my family because they are the ones who support me well and are always there for me every time I need them.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

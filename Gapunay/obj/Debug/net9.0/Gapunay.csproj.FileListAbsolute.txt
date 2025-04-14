@@ -1,0 +1,14 @@
+C:\Users\cedri\OneDrive\Desktop\Gapunay\bin\Debug\net9.0\Gapunay.exe
+C:\Users\cedri\OneDrive\Desktop\Gapunay\bin\Debug\net9.0\Gapunay.deps.json
+C:\Users\cedri\OneDrive\Desktop\Gapunay\bin\Debug\net9.0\Gapunay.runtimeconfig.json
+C:\Users\cedri\OneDrive\Desktop\Gapunay\bin\Debug\net9.0\Gapunay.dll
+C:\Users\cedri\OneDrive\Desktop\Gapunay\bin\Debug\net9.0\Gapunay.pdb
+C:\Users\cedri\OneDrive\Desktop\Gapunay\obj\Debug\net9.0\Gapunay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cedri\OneDrive\Desktop\Gapunay\obj\Debug\net9.0\Gapunay.AssemblyInfoInputs.cache
+C:\Users\cedri\OneDrive\Desktop\Gapunay\obj\Debug\net9.0\Gapunay.AssemblyInfo.cs
+C:\Users\cedri\OneDrive\Desktop\Gapunay\obj\Debug\net9.0\Gapunay.csproj.CoreCompileInputs.cache
+C:\Users\cedri\OneDrive\Desktop\Gapunay\obj\Debug\net9.0\Gapunay.dll
+C:\Users\cedri\OneDrive\Desktop\Gapunay\obj\Debug\net9.0\refint\Gapunay.dll
+C:\Users\cedri\OneDrive\Desktop\Gapunay\obj\Debug\net9.0\Gapunay.pdb
+C:\Users\cedri\OneDrive\Desktop\Gapunay\obj\Debug\net9.0\Gapunay.genruntimeconfig.cache
+C:\Users\cedri\OneDrive\Desktop\Gapunay\obj\Debug\net9.0\ref\Gapunay.dll

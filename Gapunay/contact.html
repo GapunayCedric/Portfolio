@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: white;
+        }
+
+        .message-buttons {
+    margin-top: 20px;
+}
+
+.message-buttons button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.message-buttons button:hover {
+    background-color: #555;
+}
+
+
+        .back-btn {
+            margin: 20px;
+        }
+
+        .back-btn button {
+            background-color: #444;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back-btn button:hover {
+            background-color: #555;
+        }
+
+        .content-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 80px);
+        }
+
+        .container {
+            display: flex;
+            max-width: 900px;
+            background: #2c2c2c;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .image-section {
+            flex: 1;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .contact-section {
+            flex: 1;
+            padding: 20px;
+        }
+
+        h1 {
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="back-btn">
+        <button onclick="history.back()">← Back</button>
+    </div>
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="image-section">
+                <img src="image.jpg" alt="Business and Contact Image">
+            </div>
+            <div class="contact-section">
+                <h1>My Contact</h1>
+                <p>Here is the social media, my contacts, and location in case you want to message me:</p>
+                <ul>
+                    <li>📞 09120939415</li>
+                    <li>📞 09933262216</li>
+                    <li>📘 Cedric Gapunay</li>
+                    <li>📧 cedricgapunay6@gmail.com</li>
+                    <li>📷 dammits_karl</li>
+                    <li>📍 San Francisco Callihan, San Pablo City</li>
+                    <div class="message-buttons">
+                        <button onclick="messageFacebook()">Message on Facebook</button>
+                        <button onclick="messageInstagram()">Message on Instagram</button>
+                        <button onclick="sendEmail()">Send Email</button>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function messageFacebook() {
+     
+            window.open('https://www.facebook.com/cedricgapunay', '_blank');
+        }
+    
+        function messageInstagram() {
+          
+            window.open('https://www.instagram.com/dammits_karl', '_blank');
+        }
+    
+        function sendEmail() {
+        
+            window.location.href = 'mailto:cedricgapunay6@gmail.com';
+        }
+    </script>
+    
+</body>
+</html>
